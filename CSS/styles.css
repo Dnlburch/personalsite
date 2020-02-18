@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #d9faff;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Lobster', cursive;
+  font-size: 5.625rem;
+  color: #005792;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #005792;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #005792;
+}
+
+a {
+  color: #005792;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  margin: .5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #40514e;
+  width: 10%;
+  border-width: 5px;
+  margin: 100px auto;
+}
+
+.normalFW {
+  font-weight: normal;
+}
+
+.doubLineh {
+  line-height: 2;
+}
+
+.topContainer {
+  background-color: #00bbf0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middleContainer {}
+
+.bottomContainer {
+  background-color: #00bbf0;
+  color: #EAF6F6;
+  margin: 3rem 0 0 0;
+  padding: 2.3rem;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skillImgLeft {
+  max-width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skillImgRight {
+  max-width: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-title {
+  text-align: right;
+  margin-right: 7%;
+}
+
+.htmlImg {
+  margin-left: -3%;
+}
+
+.contact {
+  background-color: #00bbf0;
+  color: #EAF6F6;
+  padding: .5rem;
+  border-style: solid;
+  border-width: .5rem;
+  border-radius: 5%;
+  border-color: #00bbf0;
+}
+
+.contact:hover {
+  border-width: 1rem;
+  border-color: #00204a;
+}
+
+.gitP {
+  margin: 2rem auto 2.3rem auto;
+  max-width: 40%;
+  line-height: 2;
+}
+
+a:hover {
+  color: #00204a;
+}
+
+.footer-link{
+}
