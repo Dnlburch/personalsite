@@ -10,6 +10,7 @@ h1 {
   font-family: 'Lobster', cursive;
   font-size: 5.625rem;
   color: #005792;
+  padding: 0 1rem;
 }
 
 h2 {
@@ -22,7 +23,11 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #005792;
 }
-
+p{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
 a {
   color: #005792;
   font-family: 'Montserrat', sans-serif;
@@ -38,6 +43,9 @@ hr {
   width: 10%;
   border-width: 5px;
   margin: 100px auto;
+}
+.bg-light{
+  background-color: #d9faff!important;
 }
 
 .normalFW {
@@ -56,67 +64,58 @@ hr {
 
 .middleContainer {}
 
+.projects{
+  background-color: #00bbf0;
+}
+
 .bottomContainer {
   background-color: #00bbf0;
   color: #EAF6F6;
   margin: 3rem 0 0 0;
   padding: 2.3rem;
 }
-
-.topCloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
+.codeImg{
+  max-width: 250px;
+  max-height: 250px;
+  padding: 1.5rem 0;
 }
-
-.bottomCloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
+.codeLogo{
+  max-height: 35px;
 }
-
-.skillImgLeft {
+.skillImg {
   max-width: 150px;
-  float: left;
-  margin-right: 30px;
+  max-height: 150px;
 }
 
-.skillImgRight {
-  max-width: 150px;
-  float: right;
-  margin-left: 30px;
+.col-lg-2{
+  padding: 1.5rem 0;
 }
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
+.row{
+  padding: 1.5rem 0;
+  margin-left: 0;
+  margin-right: 0;
 }
-
-.skill-title {
-  text-align: right;
-  margin-right: 7%;
-}
-
-.htmlImg {
-  margin-left: -3%;
-}
-
-.contact {
+.btn-primary{
   background-color: #00bbf0;
-  color: #EAF6F6;
-  padding: .5rem;
-  border-style: solid;
-  border-width: .5rem;
-  border-radius: 5%;
   border-color: #00bbf0;
+  margin-top: 1rem;
+
+}
+.btn-primary:hover{
+  background-color: #005792;
+}
+/* Projects */
+.card{
+  margin: 0 1rem;
+  border-width: medium;
+  border-color: #005792;
+  max-width: 400px;
+}
+.card-img-top{
+  padding-top: .7rem;
+  max-width: 250px;
 }
 
-.contact:hover {
-  border-width: 1rem;
-  border-color: #00204a;
-}
 
 .gitP {
   margin: 2rem auto 2.3rem auto;
@@ -126,7 +125,4 @@ hr {
 
 a:hover {
   color: #00204a;
-}
-
-.footer-link{
 }
