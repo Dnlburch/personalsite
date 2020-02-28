@@ -17,6 +17,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color: #005792;
+  padding: 3.5rem 1.5rem;
 }
 
 h3 {
@@ -27,6 +28,7 @@ p{
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
+  color: #005792;
 }
 a {
   color: #005792;
@@ -44,10 +46,15 @@ hr {
   border-width: 5px;
   margin: 100px auto;
 }
+/* Navbar prop */
 .bg-light{
   background-color: #d9faff!important;
 }
+.codeLogo{
+  max-height: 35px;
+}
 
+/* General styles */
 .normalFW {
   font-weight: normal;
 }
@@ -62,11 +69,7 @@ hr {
   padding-top: 100px;
 }
 
-.middleContainer {}
 
-.projects{
-  background-color: #00bbf0;
-}
 
 .bottomContainer {
   background-color: #00bbf0;
@@ -79,9 +82,7 @@ hr {
   max-height: 250px;
   padding: 1.5rem 0;
 }
-.codeLogo{
-  max-height: 35px;
-}
+
 .skillImg {
   max-width: 150px;
   max-height: 150px;
@@ -105,8 +106,12 @@ hr {
   background-color: #005792;
 }
 /* Projects */
+.projects{
+  background-color: #00bbf0;
+  /* padding-top: 3rem; */
+}
 .card{
-  margin: 0 1rem;
+  margin: 1.5rem 1rem;
   border-width: medium;
   border-color: #005792;
   max-width: 400px;
