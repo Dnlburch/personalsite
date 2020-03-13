@@ -131,3 +131,8 @@ hr {
 a:hover {
   color: #00204a;
 }
+
+/* Bottom portion */
+.hire-me{
+  padding: 0 1rem;
+}
